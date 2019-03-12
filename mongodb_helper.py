@@ -2,7 +2,7 @@ import datetime as dt
 import pymongo
 
 def getDbClient():
-    srv_address = 'mongodb://brendathng:eusoffhall@cluster0-shard-00-00-dbct0.mongodb.net:27017,cluster0-shard-00-01-dbct0.mongodb.net:27017,cluster0-shard-00-02-dbct0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
+    srv_address = 'srv_address'
     client = pymongo.MongoClient(srv_address)
     return client
 
